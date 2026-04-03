@@ -27,7 +27,7 @@ export default function Footer() {
             ease: "power3.out",
             scrollTrigger: {
               trigger: footerRef.current,
-              start: "top 85%",
+              start: "top bottom",
               toggleActions: "play none none none",
             },
           }
@@ -37,8 +37,8 @@ export default function Footer() {
       // Coordinates ticker animation
       if (coordsRef.current) {
         const coordEl = coordsRef.current;
-        const targetLat = 43.6532;
-        const targetLon = 79.3832;
+        const targetLat = 45.5017;
+        const targetLon = 73.5673;
 
         const obj = { lat: 0, lon: 0 };
         gsap.to(obj, {
@@ -105,25 +105,25 @@ export default function Footer() {
 
         <div className="text-right flex flex-col gap-8">
           <div className="font-label text-[10px] tracking-[0.4em] uppercase text-white/40">
-            Headquarters
+            Based In
           </div>
           <div className="font-headline text-2xl text-white font-light tracking-widest">
-            TORONTO,
+            MONTREAL,
             <br />
-            CANADA
+            QC
           </div>
           <div
             ref={coordsRef}
             className="mt-8 font-body text-xs text-white/60 italic"
           >
-            43.6532 N, 79.3832 W
+            45.5017 N, 73.5673 W
           </div>
         </div>
       </div>
 
       <div className="mt-24 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="text-sm font-label uppercase tracking-[0.3em] text-white/40">
-          Data-Crafted in Toronto 2025
+          Data-Crafted in Montreal 2025
         </div>
         <div className="flex gap-8">
           <span className="font-label text-[10px] text-white/20 uppercase tracking-widest">
