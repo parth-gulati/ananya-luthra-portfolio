@@ -21,7 +21,7 @@ interface ExperienceCard {
 
 const experiences: ExperienceCard[] = [
   {
-    date: "Oct 2024 — Present",
+    date: "Oct 2025 — Present",
     icon: "finance",
     title: "Morgan Stanley",
     role: "Data Engineer",
@@ -31,7 +31,7 @@ const experiences: ExperienceCard[] = [
     ],
   },
   {
-    date: "Jul 2024 — Oct 2024",
+    date: "Jul 2024 — Oct 2025",
     icon: "account_balance",
     title: "BMO",
     role: "Senior Specialist, Data Analytics",

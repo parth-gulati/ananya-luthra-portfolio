@@ -64,7 +64,7 @@ export default function Footer() {
   const socialLinks = [
     {
       label: "LinkedIn",
-      href: "https://linkedin.com/in/ananyaluthra",
+      href: "https://www.linkedin.com/in/ananya-luthra/",
       className:
         "font-headline text-4xl sm:text-6xl md:text-[8rem] font-bold tracking-tighter hover:italic text-white hover:text-primary transition-all duration-700 leading-none",
     },
