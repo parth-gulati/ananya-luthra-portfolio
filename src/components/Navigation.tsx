@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { label: "Strategy", href: "#process" },
   { label: "Projects", href: "#insights" },
   { label: "Contact", href: "#studio" },
+  { label: "Book a Call", href: "#book" },
 ];
 
 export default function Navigation() {

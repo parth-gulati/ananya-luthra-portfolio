@@ -5,6 +5,7 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Innovation from "@/components/Innovation";
 import CTA from "@/components/CTA";
+import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Skills />
         <Innovation />
         <CTA />
+        <Booking />
       </main>
       <Footer />
     </SmoothScroll>
