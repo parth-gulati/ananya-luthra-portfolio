@@ -56,7 +56,7 @@ export default function CTA() {
   return (
     <section
       id="studio"
-      className="py-24 sm:py-48 px-6 sm:px-8 md:px-16 text-center relative overflow-hidden"
+      className="pt-24 sm:pt-48 pb-20 sm:pb-28 px-6 sm:px-8 md:px-16 text-center relative overflow-hidden"
       ref={sectionRef}
     >
       {/* Pulsing radial gradient background */}
@@ -88,7 +88,7 @@ export default function CTA() {
             href="mailto:ananya.luthra@mail.mcgill.ca"
             className="iridescent-btn px-16 py-6 rounded-xl text-black font-label text-xs tracking-widest uppercase font-bold"
           >
-            Initiate Contact
+            Drop an Email
           </a>
           <a
             href="#"
@@ -97,6 +97,10 @@ export default function CTA() {
             Download Resume{" "}
             <span className="material-symbols-outlined text-sm">download</span>
           </a>
+        </div>
+
+        <div className="mt-20 sm:mt-28 font-headline text-[11vw] sm:text-[10vw] md:text-[8vw] uppercase leading-[0.85] tracking-tighter text-primary italic font-light">
+          Or
         </div>
       </div>
     </section>
