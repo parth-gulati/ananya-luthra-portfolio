@@ -90,13 +90,6 @@ export default function CTA() {
           >
             Drop an Email
           </a>
-          <a
-            href="#"
-            className="font-label text-xs uppercase tracking-widest text-white/50 hover:text-white transition-colors flex items-center gap-2"
-          >
-            Download Resume{" "}
-            <span className="material-symbols-outlined text-sm">download</span>
-          </a>
         </div>
 
         <div className="mt-20 sm:mt-28 font-headline text-[11vw] sm:text-[10vw] md:text-[8vw] uppercase leading-[0.85] tracking-tighter text-primary italic font-light">

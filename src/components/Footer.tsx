@@ -75,8 +75,8 @@ export default function Footer() {
         "font-headline text-4xl sm:text-6xl md:text-[8rem] font-bold tracking-tighter hover:italic text-white/60 hover:text-primary hover:translate-x-4 transition-all duration-700 leading-none",
     },
     {
-      label: "Read.cv",
-      href: "#",
+      label: "Instagram",
+      href: "https://www.instagram.com/ananyaaluthra/",
       className:
         "font-headline text-4xl sm:text-6xl md:text-[8rem] font-bold tracking-tighter hover:italic text-white/60 hover:text-primary hover:translate-x-4 transition-all duration-700 leading-none",
     },
@@ -122,9 +122,6 @@ export default function Footer() {
       </div>
 
       <div className="mt-24 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-        <div className="text-sm font-label uppercase tracking-[0.3em] text-white/40">
-          Data-Crafted in Montreal 2025
-        </div>
         <div className="flex gap-8">
           <span className="font-label text-[10px] text-white/20 uppercase tracking-widest">
             Orchid Logic v2.0

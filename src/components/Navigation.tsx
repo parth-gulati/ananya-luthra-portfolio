@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { label: "Strategy", href: "#process" },
   { label: "Projects", href: "#insights" },
   { label: "Contact", href: "#studio" },
-  { label: "Book a Call", href: "#book" },
+  { label: "Connect", href: "#studio" },
 ];
 
 export default function Navigation() {
@@ -114,10 +114,10 @@ export default function Navigation() {
 
       {/* Connect button */}
       <a
-        href="#studio"
+        href="#book"
         className="font-label text-[11px] tracking-[0.3em] uppercase text-white border border-white/20 px-6 py-3 hover:bg-white hover:text-black transition-all duration-300"
       >
-        Connect
+        Book a Call
       </a>
     </nav>
   );

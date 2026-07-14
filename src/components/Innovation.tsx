@@ -102,22 +102,24 @@ export default function Innovation() {
           </div>
 
           <div className="relative z-10 flex flex-col justify-end h-full p-12">
-            <span className="inline-block w-fit px-4 py-1.5 border border-primary/40 rounded-full font-label text-[10px] tracking-widest uppercase text-primary mb-6">
-              Patent Pending
+            <span className="material-symbols-outlined text-4xl text-primary mb-6">
+              directions_car
             </span>
             <h4 className="font-headline text-3xl sm:text-5xl font-bold mb-4">
-              Smart Safety Jacket Infrastructure
+              Scrap-Built Two-Seater Car
             </h4>
             <p className="text-on-surface-variant text-sm font-light max-w-lg leading-relaxed mb-8">
-              A cloud-integrated wearable system that monitors environmental
-              hazards in real-time, relaying critical data through edge computing
-              nodes to centralized safety dashboards.
+              At 15, engineered a working two-seater car from scrap materials
+              and a standard motorcycle engine — frugal innovation and
+              mechanical resourcefulness that earned regional press coverage.
             </p>
             <a
-              href="#"
+              href="https://www.ptcnews.tv/two-seater-car-on-bike-engine-panipat-girls-innovation"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 font-label text-xs uppercase tracking-widest text-white/60 hover:text-white transition-colors"
             >
-              Review Technical Specs
+              Read the Coverage
               <span className="block h-px bg-white/30 group-hover:w-16 w-8 transition-all duration-500" />
             </a>
           </div>
@@ -131,15 +133,19 @@ export default function Innovation() {
             className="flex-1 rounded-xl border border-white/10 backdrop-blur-md bg-white/5 p-10 flex flex-col justify-between"
           >
             <span className="material-symbols-outlined text-4xl text-primary mb-6">
-              directions_car
+              health_and_safety
             </span>
             <div>
+              <span className="inline-block w-fit px-4 py-1.5 border border-primary/40 rounded-full font-label text-[10px] tracking-widest uppercase text-primary mb-4">
+                Patent Pending
+              </span>
               <h5 className="font-headline text-2xl font-bold mb-3">
-                Car Innovation
+                Smart Safety Jacket Infrastructure
               </h5>
               <p className="text-on-surface-variant text-sm font-light leading-relaxed">
-                Next-gen automotive data relay systems for autonomous vehicle
-                coordination.
+                A cloud-integrated wearable system that monitors environmental
+                hazards in real-time, relaying critical data through edge
+                computing nodes to centralized safety dashboards.
               </p>
             </div>
           </div>
