@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Google Calendar appointment schedule (1 hr consultation, Google Meet).
+// Google Calendar appointment schedule (30 min consultation, Google Meet).
 // Get this URL from Google Calendar > Appointment schedules > Share > "Website embed" / booking page link.
 const BOOKING_URL =
   "https://calendar.google.com/calendar/appointments/schedules/AcZssZ1ezNBRLZUUnDyga-SbSoqiWcjyZoC8D0DOMLajg5aXynYTsEnuxeE_8gZQYMRgmP9CXrfvXhgE?gv=true";
@@ -44,7 +44,7 @@ export default function Booking() {
         </span>
 
         <h2 className="font-headline text-[9vw] sm:text-[7vw] md:text-[5vw] font-extrabold uppercase leading-[0.9] tracking-tighter mb-6 text-white">
-          1 Hour{" "}
+          30 Mins{" "}
           <span className="text-primary italic font-light">Consultation</span>
         </h2>
 
@@ -56,7 +56,7 @@ export default function Booking() {
         <div className="rounded-xl overflow-hidden border border-white/10 bg-white">
           <iframe
             src={BOOKING_URL}
-            title="Book a 1 hour consultation on Google Meet"
+            title="Book a 30 minute consultation on Google Meet"
             className="w-full h-[70vh] min-h-[600px] border-0"
             loading="lazy"
           />
